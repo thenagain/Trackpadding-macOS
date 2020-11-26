@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Trackpadding-macOS
 //
-//  Created by TakahiroNagai on 2020/11/25.
+//  Created by thenagain on 2020/11/25.
 //
 
 import Cocoa

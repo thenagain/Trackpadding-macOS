@@ -20,18 +20,20 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
-	<key>NSMainStoryboardFile</key>
-	<string>Main</string>
-	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
-	<key>NSLocalNetworkUsageDescription</key>
-	<string>Trackpadding use Local Network to connect devices.</string>
 	<key>NSBonjourServices</key>
 	<array>
 		<string>_trackpadding._tcp</string>
 		<string>_trackpadding._udp</string>
 	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Trackpadding use Local Network to connect devices.</string>
+	<key>NSMainStoryboardFile</key>
+	<string>Main</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
 </dict>
 </plist>
