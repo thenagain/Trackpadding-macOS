@@ -3,7 +3,9 @@
 ![Trackpadding](/img/Trackpadding_icon.png)
 
 **Trackpadding** is the easy app which makes your iPhone/iPad into trackpad for your mac.
-It can connect iPhone/iPad and mac with not only Wi-FI also **Bluetooth**.
+It can connect iPhone/iPad and mac with **not only Wi-FI also Bluetooth**.
+
+![Demo](/img/demo.gif)
 
 ## How To Use
 - Run Trackpadding.app on your iPhone/iPad
