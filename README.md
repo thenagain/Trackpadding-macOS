@@ -12,6 +12,8 @@ It can connect immediately iPhone/iPad and mac with **not only Wi-FI also Blueto
 ## How To Use
 - Run Trackpadding.app on your iPhone/iPad
 - Run Trackpadding-macOS.app on your mac
+
+
 And then your iPhone/iPad change into trackpad.
 
 ## Gesture Recognition
