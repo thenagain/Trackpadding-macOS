@@ -72,8 +72,9 @@ class ViewController: NSViewController, MCSessionDelegate, MCNearbyServiceAdvert
     }
     
     func postMoveEvent(dx: CGFloat, dy: CGFloat) {
+        let gain = CGFloat(2.0)
         var mouseLocation = NSEvent.mouseLocation
-        mouseLocation = CGPoint(x: mouseLocation.x + dx * 0.5, y: displayHeight - mouseLocation.y + dy * 0.5)
+        mouseLocation = CGPoint(x: mouseLocation.x + dx * gain, y: displayHeight - mouseLocation.y + dy * gain)
         mouseLocation.x = min(max(0, mouseLocation.x), displayWidth)
         mouseLocation.y = min(max(0, mouseLocation.y), displayHeight)
         let source = CGEventSource(stateID: .hidSystemState)
